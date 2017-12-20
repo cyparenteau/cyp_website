@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!-- This is a complete example of an image gallery -->
 
 <html lang="en">
+
   <head>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -12,10 +12,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
     <!-- use the head section to define meta data and load css and js files -->
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>cypareteau resume</title>
+    <title>cypareteau</title>
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
@@ -24,6 +25,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="assets/js/restemps.js"></script>
 
     <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/flipcards.css" rel="stylesheet">
+    <link href="assets/css/parallax.css" rel="stylesheet">
     <link href="assets/css/formatting.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,6 +59,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li><a href="index.html">home</a></li>
             <li class="active"><a href="resume.html"> 
               <span class="sr-only">(current)</span>resume</a></li>
+            <li class="dropdown">
+              <a href="portfolio.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> portfolio <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="coding.html">code examples</a></li>
+                <li><a href="proposal.html">project proposal example</a></li>
+                <li><a href="records.html"> records department - annual summary </a></li>
+              </ul>
+            </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="contact.html" class="contact-toggle">contact</a></li>

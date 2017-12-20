@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- This is a complete example of an image gallery -->
+
+<html lang="en">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5CL9366');</script>
+<!-- End Google Tag Manager -->
+
+    <!-- use the head section to define meta data and load css and js files -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>cyparenteau</title>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/handlebars-v3.0.3.js"></script>
+    <script src="assets/js/highlights.js"></script>
+    <script src="assets/js/profile.js"></script>
+
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/flipcards.css" rel="stylesheet">
+    <link href="assets/css/parallax.css" rel="stylesheet">
+    <link href="assets/css/formatting.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CL9366"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <nav class="navbar navbar-default navbar-fixed-top"><!-- Start Navbar -->
+      <div class="container-fluid">
+        <div class="navbar-header"> <!-- Start Collapsed Navbar -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">cyparenteau</a>
+        </div> <!-- End Collapsed Navbar -->
+        <!-- Start uncollapsed Navbar -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html"> 
+              <span class="sr-only">(current)</span>home</a></li>
+            <li><a href="resume.html">resume</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="contact.html" class="contact-toggle">contact</a></li>
+          </ul>
+        </div> <!-- end uncollapsed Navbar -->
+      </div><!-- /.container-fluid -->
+    </nav> <!-- End Navbar -->
+
+
+
+  	<div class="bgimg-1">
+  	  <div class="caption-head">
+  	  <span class="border">Christina&nbsp;Parenteau</span>
+  	  </div>
+  	  <div class="caption2">
+  	  	<p style="color:white;">scroll down</p>
+  	  <span class="border glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+  	</div>
+  	</div>
+
+  <div style="position:relative;">
+  	<div style="background-color:#e6e6e6;text-align:center;padding:50px 80px;text-align: justify;">
+  	  <h3 style="text-align:center; color:black;">Information Wrangler ~ Technical Project Manager ~ Software Administrator</h3>
+      <div class="elevator">
+        <ul style="list-style-type: none;">
+            <li>Christina Parenteau is an information-project-managing-technologist with librarianship at her core. </li>
+            <li class="elevator">She is currently a graduate student at the University of Illinois Urbana-Champaign. <br>Prior to this, she spent 10 years working in libraries, and  Higher Education IT. <br>7+ years of project management experience &amp; 2 years of Records Management Department Supervisory experience. <br> In the past she managed physical and digital information, such as boxes of student photos from the 1950s, digital financial documents, academic and administrative data, and business process workflows for various University departments.</li>
+            <li class="elevator">Strong technical generalist with hands-on experience in a wide range of IT functions.</li>
+            <li>-- life-cycle administration of full stack applications (web and desktop), desktop support, installing wifi access points, changing the tapes in a backup system, administering servers via vSphere, a little web design, a lot of information management, and business process digitization --</li>
+        </ul>
+      </div>
+
+  	</div>
+  </div>
+  <!--  if I want it fancier
+  	<div class="bgimg-2">
+  	  <div class="caption">
+  	    <span class="border" style="color:black;background-color:transparent;font-size:35px">Highlights</span>
+  	  </div>
+  	</div>
+  -->
+  	<div style="position:relative;">
+  	  <div style="background-color:white;text-align:center;padding:35px;text-align: justify;">
+        <h2 style="text-align: center;">Highlights</h2>
+  	    <div id="content"  style="background-color:transparent" class="container-fluid"  role="main"></div>
+  	  </div>
+  	</div>
+
+
+  	<div class="bgimg-2">
+  	  <div class="caption">
+  	    <span class="border" style="background-color:transparent;font-size:35px;color:black;">
+  	    	<a href="resume.html" style="color:black;">click for resume</a>
+  	    </span>
+  	  </div>
+  	</div>
+
+  <!-- hold this if I need more space for content
+  	<div style="position:relative;">
+  	  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  	    <p>Christina is pretty cool. Why not hire her?</p>
+  	  </div>
+  	</div>
+
+  	<div class="bgimg-1">
+  	  <div class="caption">
+  	    <span class="border">End of page.</span>
+  	  </div>
+  	</div>
+  -->
+<!-- End Parallax Body-->
+
+<!-- TEMPLATES-->
+
+<script id="highlights-template" type="text/x-handlebars-template">
+  <div class="container-fluid">
+    <div class="row">
+      {{#each highlights}}
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="hover panel">
+            <div class="front">
+              <div class="box1">
+                <h5 class="front-text">{{category}}</h5>
+              </div>
+            </div>
+            <div class="back">
+              <div class="box2">
+                <p class="flip-text">{{catDesc}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/each}}
+    </div> 
+  </div>
+</script>
+<!--END TEMPLATES-->
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      // set up hover panels
+      // although this can be done without JavaScript, we've attached these events
+      // because it causes the hover to be triggered when the element is tapped on a touch device
+      $('.hover').hover(function(){
+        $(this).addClass('flip');
+      },function(){
+        $(this).removeClass('flip');
+      });
+  });
+  //"CSS 3D FLIP BOX"
+  // Bootstrap 3.3.0 Snippet by rasheedbhutto
+</script>
+
+
+
+  </body>
+</html>

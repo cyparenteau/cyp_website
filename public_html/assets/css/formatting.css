@@ -1,0 +1,16 @@
+.elevator {
+  text-align: center;
+  margin-top: 25px;
+}
+.headbump {
+	margin-top: 75px;
+}
+
+.smallbump {
+	margin-top: 5px;
+	margin-left:20px;
+}
+
+.pnote {
+	font-size: small;
+}

@@ -1,0 +1,89 @@
+/* 
+"Parallax Effect"
+Bootstrap 3.3.0 Snippet by acharyarajasekhar
+https://bootsnipp.com/snippets/M32BW
+*/
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("../images/papersheets.png");
+  min-height: 90%;
+    opacity: 0.6;
+}
+
+.bgimg-2 {
+  background-image: url("../images/organized.png");
+  min-height: 400px;
+    opacity: 0.6;
+}
+
+.bgimg-3 {
+  background-image: url("../images/bottom.png");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption-head {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption2 {
+  position: absolute;
+  left: 0;
+  top: 75%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption-head span.border {
+  background-color: #e6e6e6;
+  color: black;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.caption span.border {
+  background-color: #e6e6e6;
+  color: black;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.caption2 span.border {
+  background-color: #e6e6e6;
+  color: black;
+  padding: 18px;
+  font-size: 25px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #ddd;
+}

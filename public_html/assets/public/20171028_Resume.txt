@@ -1,0 +1,74 @@
+Christina Parenteau PMP, MSLIS
+info@cyparenteau.com 
+www.cyparenteau.com
+Champaign, IL, USA
+
+Education and Certifications
+Master of Science, Library and Information Science, MSLIS (Dec. 2017) -- University of Illinois Urbana-Champaign 
+Project Management Professional, PMP (2016) -- Project Management Institute
+Bachelor of Arts English Linguistics (2007) -- California State University San Bernardino
+
+Professional Experience - Management and Leadership 
+Manager, Records Management - Claremont University Consortium - [2010 - 2012] 
+* Oversaw and provided project management for the three-unit Records Management Program: Digital Records Management (OnBase), the Physical Records Management, and the Records Digitization. We provided services to all departments in the central service institution and to the Admissions and Financial services departments at 5 undergraduate colleges and 2 graduate institutions.
+* Advised financial services staff, and the CFO, in the creation of document metadata schemas and taxonomies for department’s onboarding with the Enterprise Content Management system (OnBase).
+* Led a CUC-wide effort to standardize records retention schedules across administrative and academic departments. Developed records retention policies with diverse user groups.
+* Participated in consultations for business process solutions. Made recommendations, to department leads, on application integrations and records management best practices as necessary.
+* Fostered collaborative relationships between two the central service body and two of the undergraduate colleges to establish a consortial enterprise content management committee/ working group. Designed, and delivered, departmental training on common application issues and new technologies.
+* Managed and supported enterprise application infrastructure (Web, App, DB, and Full Text Indexing).
+* Supervised, coached, and delegated operational and project tasks, to 2 full-time programmers, and 8-12 interns.
+* Provided leadership to the three Records units for a successful implementation year (2011)
+- The Records Center reached 50% capacity with over 1,700 boxes inducted
+- Approx. 20,500 Requests for Checks were processed electronically 
+- Over 128,000 documents were digitized and indexed 
+- Over 500,000 document views in the digital document management system 
+OnBase Project Administrator - Claremont University Consortium - [2009 - 2010] 
+* Provided project management and onsite system administration, for the implementation of the central service Enterprise Content Management system.
+* Project management and technical contribution for the integration of a Request for Check eForm and digital workflow for integration between OnBase and Datatel (financial system).
+* Coordinated the, software installation and configuration, project work of onsite and remote consultants. Maintained vendor relationships, and negotiated maintenance contracts for the post-project roll-off. 
+* Designed training materials and gave instructional sessions for usability testing and application rollout.
+* Collaborated with library leadership to establish the building space and facilities services for the Physical Records Management warehouse arm of the Records Management program.
+* Trained administrative, and c-level executive, staff on new technologies and business process workflows.
+Professional Experience Continued - Technical Contributions and Training 
+Applications Administrator - University of Chicago - [2014 - 2016]
+* Administration of academic applications, and systems integrations support for the following applications: StarRez (College Housing), AdAstra Schedule (Course Scheduling), PowerFAIDS (Financial Aid), Fusion (Athletics), FSA Atlas (SEVIS / International), Ellucian - Matrix (Student Information System), PeopleSoft Campus Solutions 
+* Provided technical project management and technical support, on concurrent projects in up to 4 departments. 
+* Collaborated and communicated with technical and functional teams across campus to achieve goals, discover requirements, and set expectations. 
+* Administration of multi-tier web and desktop applications: MS Server Web/App, SQL Database Server
+* Developed and maintained successful collaborative and lines of communication with network services and DevOps. 
+* Supported academic systems in code releases, and project migrations, to Dev, QA, and Production systems.
+* Participated in the change management advisory board processes for SDLC compliance, and annual policy and process audits.
+* Security Lead on the multi-phase, institution wide, PeopleSoft Campus Solutions implementation project. Advised on best practices, and worked on PeopleSoft security design.  Deployed initial application security configuration.
+Document Management Specialist - Pomona College - [2012 - 2014]
+* Main duties were system implementation, operational system support, and technical project management. 
+* Led business process discovery, and design, for workflows.
+* Drafted, and progressively revised, project documentation and technical requirements that were communicated to executive committees and project resources.
+* Primary OnBase developer and system administrator for all functional areas in Pomona College. 
+* Designed and managed the system maintenance plan, and upgrade schedule, for the OnBase environment (ECM). 
+* Provided technical expertise to integrate the ECM system with the Student Information System.
+User Support Specialist, Library - Claremont University Consortium - [2008 - 2009] 
+* Developed the curriculum and materials for a successful technical training program open to students/faculty/staff. Taught classes ranging from Microsoft Office to Open Source Solutions.
+* Designed Helpdesk projects, and delegated the day-to-day assigning of the library and corporate helpdesk issues.
+* Provided desktop user support to a staff of approximately 80.
+Reference/Tech Center Assistant - Rancho Cucamonga Public Library - [2007 - 2008]
+* Developed curriculum for technology classes, and provided Tech Center support. Updated reading lists on the library website. 
+* Provided reference desk support in the Children and Adult sections.
+
+Professional Affiliation - Leadership 
+Higher Education User Group: Hyland Software - Vertical OnBase Group of User Experts
+President: 2012/2013  and Vice President: 2010/2011
+Responsibilities included: planning for the annual user conference, presenting at conferences and leading roundtables, coordinating submission of software enhancement requests, leading user group meetings, and creating content for the Higher Education newsletter and listserv.
+
+Presentations
+* Association of Information and Image Management (AIIM) Conference 2012- March, 2012 - Presenter
+"When Jargon Attacks!: Making communication work with users, IT, and Records Management"
+* AIIM Annual 2013 - March, 2013 - Presenter
+"Breaking Bad: How to improve governance and control in open environments."
+* OnBase Vertical Onbase Group of User Experts (VOGUE)  - August, 2013 - Co-Presenter 
+"Upgrading OnBase: Best Practices for Higher Education."
+
+Skills: Programming, Database, and Markup
+Python 2.7 and 3.5 | T-SQL and MySQL Queries and Stored Procedures | XML - Metadata Standards, RDF, Schema Creation | HTML 5 | CSS 3 | JavaScript | JQuery | Bootstrap
+
+Skills: Enterprise, Design and Productivity
+MS Server (web/app) | MS SQL Server | MS SharePoint | Jenkins | Subversion | GIT | Oracle PeopleSoft Campus Solutions | Hyland OnBase | Basecamp | ServiceNow | Footprints | JIRA | Adobe Acrobat Pro | Adobe InDesign | MS Office | MS Project | PyCharm | Sublime Text

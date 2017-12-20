@@ -3,12 +3,13 @@
 <html lang="en">
   <head>
 
+
     <!-- use the head section to define meta data and load css and js files -->
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>cyparenteau</title>
+    <title>cyparenteau - coding</title>
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
@@ -35,76 +36,59 @@
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
           </button>
+            <span class="icon-bar"></span>
           <a class="navbar-brand" href="index.html">cyparenteau</a>
         </div> <!-- End Collapsed Navbar -->
 
         <!-- Start uncollapsed Navbar -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="index.html"> home</a></li>
+            <li><a href="index.html">home</a></li>
             <li><a href="resume.html">resume</a></li>
             <li class="dropdown">
-              <a href="portfolio.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> portfolio <span class="caret"></span></a>
+              <a href="portfolio.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">portfolio <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="coding.html">code examples</a></li>
                 <li><a href="proposal.html">project proposal example</a></li>
-                <li><a href="records.html"> records department - annual summary </a></li>
+                <li><a href="records.html">records department - annual summary </a></li>
               </ul>
-            </li>
+            </li>  
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="contact.html" class="contact-toggle">
-                <span class="sr-only">(current)</span>contact</a></li>
+            <li><a href="contact.html" class="contact-toggle">contact</a></li>
           </ul>
         </div> <!-- end uncollapsed Navbar -->
       </div><!-- /.container-fluid -->
     </nav> <!-- End Navbar -->
 
-    <div class="container-fluid headbump"> <!-- Header -->
+    <div class="container-fluid headbump"> <!-- Main Body Container -->
+      <h2>Coding Examples</h2>
 	    <div class="row">
-	      <div class="col-md-8 col-md-offset-2 col-sm-12">
-          <h3 data-toggle="modal" data-target="#contactModal"><a href="#">Contact Form</a></h3>
+	      <div class="col-md-12">
 	        <div class="well" style="text-align: center;">
-		        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="cyparenteau">
-		          <a class="LI-simple-link" href='https://www.linkedin.com/in/cyparenteau?trk=profile-badge'>Christina Parenteau, PMP</a>
-		        </div>
-	        </div>
-	      </div>
-	    </div>
-	  </div><!-- end Header -->
-
-    <div id="modal-container">
-      <div id="contactModal" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-body">
-              <iframe src="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdN9P_Y05brkd30bMhiryFcQ8N89rCqsAJhU6ffr3SYaX2uug/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-            </div>
-          </div>
-        </div>
+            <div class="row">
+              <div class="col-md-6">
+                <h4>Sample of Python</h4>
+                <p>code written for MSLIS graduate coursework</p>
+                <script src="https://gist.github.com/cyparenteau/064f5ca998f817a183089ab2c38cd634.js"></script>
+              </div>
+              <div class="col-md-6">
+                <h4>Sample of MySQL</h4>
+                <p>code written for MSLIS graduate coursework</p>
+                <script src="https://gist.github.com/cyparenteau/611552c73437e9bf5d1dfdfa20cd007d.js"></script>
+              </div>
+  	        </div>
+  	      </div>
+  	    </div>
       </div>
-  </div>
+	  </div><!-- end Main Body Container -->
 
 
 
+<!-- Script Section -->
 
-<!-- linkedin script Section -->
-  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-<!-- End linkedin Section -->
-
-<!-- Modal Scripts-->
-
-
-    <script type="text/javascript">
-
-    $('.modalbtn').click(function(event){
-      $("#contactModal").modal('show')
-
-    });
-
-  </script>
+<!-- End Script Section -->
 
 
 
